@@ -1,4 +1,4 @@
-package fundamental_thinking_go
+package main
 
 import (
 	"fmt"
@@ -33,5 +33,7 @@ func main() {
 	// fmt.Println(a, b)
 
 	//[BASIC TYPES]
-	fmt.Printf("Type: Value: \n")
+	fmt.Printf("Type: %T Value: %v \n", ToBe, ToBe)
+	fmt.Printf("Type: %T Value: %v \n", MaxInt, MaxInt)
+	fmt.Printf("Type: %T Value: %v \n", z, z)
 }
