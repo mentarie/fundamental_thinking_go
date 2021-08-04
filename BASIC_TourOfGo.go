@@ -45,5 +45,4 @@ func main() {
 	f := int(i)
 	fmt.Println(i)
 	fmt.Println(f)
-
 }
