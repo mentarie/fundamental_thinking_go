@@ -1,4 +1,4 @@
-package main
+package fundamental_thinking_go
 
 import (
 	"fmt"
