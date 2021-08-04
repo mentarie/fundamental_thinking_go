@@ -11,6 +11,7 @@ var (
 	ToBe   bool       = false
 	MaxInt uint64     = 1<<64 - 1
 	z      complex128 = cmplx.Sqrt(-5 + 12i)
+	myname string     = "ai"
 )
 
 func add(x, y int) int {
@@ -33,7 +34,16 @@ func main() {
 	// fmt.Println(a, b)
 
 	//[BASIC TYPES]
-	fmt.Printf("Type: %T Value: %v \n", ToBe, ToBe)
-	fmt.Printf("Type: %T Value: %v \n", MaxInt, MaxInt)
-	fmt.Printf("Type: %T Value: %v \n", z, z)
+	// fmt.Printf("Type: %T Value: %v \n", ToBe, ToBe)
+	// fmt.Printf("Type: %T Value: %v \n", MaxInt, MaxInt)
+	// fmt.Printf("Type: %T Value: %v \n", z, z)
+	// fmt.Printf("Type: %T Value: %v \n", z, z)
+	// fmt.Printf("Type: %T Value: %v %q \n", myname, myname, myname)
+
+	// [TYPE CONVERSION]
+	i := 42.3
+	f := int(i)
+	fmt.Println(i)
+	fmt.Println(f)
+
 }
